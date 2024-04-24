@@ -7,7 +7,7 @@ public class Demo {
         String sql = "select firstname from students where sid = 5";
         String url = "jdbc:postgresql://localhost:5432/College";
         String username = "postgres";
-        String password = "2078";
+        String password = "****";
 
 
         Connection con = DriverManager.getConnection(url,username, password);
